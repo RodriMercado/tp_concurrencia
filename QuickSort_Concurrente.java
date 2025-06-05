@@ -7,7 +7,7 @@ import java.util.concurrent.RecursiveAction; // Clase base para tareas que no re
 public class ConcurrentQuickSort {
 
     public static void main(String[] args) {
-        int size = 100_000; // Tamaño del arreglo
+        int size = 10_000; // Tamaño del arreglo
         int[] arr = generateRandomArray(size); // Generar array aleatorio
 
         ForkJoinPool pool = new ForkJoinPool(); // Pool de hilos para la concurrencia
