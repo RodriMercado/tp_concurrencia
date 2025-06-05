@@ -1,5 +1,3 @@
-package tp;
-
 import java.util.Random;
 
 public class SequentialQuickSort {
