@@ -1,3 +1,5 @@
+package tp;
+
 import java.util.Random; // Para generar números aleatorios
 import java.util.concurrent.ForkJoinPool; // Pool de hilos para tareas paralelas
 import java.util.concurrent.RecursiveAction; // Clase base para tareas que no retornan valor
