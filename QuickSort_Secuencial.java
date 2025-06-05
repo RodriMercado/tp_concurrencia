@@ -1,3 +1,5 @@
+package tp;
+
 import java.util.Random; // Para generar números aleatorios
 
 public class SequentialQuickSort {
